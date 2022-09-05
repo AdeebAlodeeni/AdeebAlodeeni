@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+.container-ad {
+    /* margin: 0 100px 0 0; */
+    margin-top: 100px;
+    padding-left: 120px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+
+.prfile-ad {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.prfile-ad img {
+    width: 40%;
+    border: #2CCB6F 5px solid;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.prfile-ad h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.prfile-ad h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+#skills {
+    background-image: url(images/155-1552359_white-dots-transparent-background-polka-dot-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.skills-card-container {
+    margin: 150px 200px 0px 200px;
+    background-color: #282828;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 200px;
+}
+
+.text-container h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.text-container p {
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: justify;
+}
+.swiper {
+    width: 1500px;
+    height: 500px;
+  }
+  .slide-sect{
+    height: 50vh;
+    background-color: gray;
+  }
+  .swiper-wrapper img{
+    width: 300px;
+  }
